@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -340790334, guid: 67cc4cb7839cd3741b63733d5adf0442, type: 3}
+  m_Name: FirePackV3FunctionalSettings
+  m_EditorClassIdentifier: 
+  Parameters: {fileID: 11400000, guid: 1fce9a01fca63634ba9bd0af9401ddd1, type: 2}
+  controls:
+  - name: Turn Off Sound
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: RFPV3 Sounds
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: cfc3e86e263680d428a3725702a26354, type: 2}
+    subParameters: []
+    labels: []
+  - name: Turn Off RT Lights
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: RFPV3 RealtimeLights
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 443c6171b5520b34d95fd6c633671696, type: 2}
+    subParameters: []
+    labels: []
+  - name: Flower Floor Spawn Method
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: RFPV3 FlowerFloorChange
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 443c6171b5520b34d95fd6c633671696, type: 2}
+    subParameters: []
+    labels: []
+  - name: Fire Wing & Eye Contacts
+    icon: {fileID: 0}
+    type: 102
+    parameter:
+      name: RFPV3 FireWingContacts
+    value: 1
+    style: 0
+    subMenu: {fileID: 11400000, guid: 443c6171b5520b34d95fd6c633671696, type: 2}
+    subParameters: []
+    labels: []
